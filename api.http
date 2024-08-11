@@ -1,0 +1,25 @@
+###
+POST http://localhost:8000/place/
+Content-Type: application/json
+
+{
+    "x": 0,
+    "y": 0,
+    "face": "SOUTH"
+}
+
+###
+POST http://localhost:8000/move/
+Content-Type: application/json
+
+###
+GET http://localhost:8000/report/
+Content-Type: application/json
+
+###
+POST http://localhost:8000/left/
+Content-Type: application/json
+
+###
+POST http://localhost:8000/right/
+Content-Type: application/json
